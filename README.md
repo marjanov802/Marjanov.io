@@ -7,3 +7,5 @@ Have learnt gsap library fully.
 But dont need it for this instance - basic css and html and javascript needed 
 Want to make simple portfolio , to showcase myself for jobs and internships.
 Next time do something flashy Dennis
+
+-- :root - very useful to hold recurring colors
