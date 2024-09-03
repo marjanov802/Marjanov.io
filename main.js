@@ -1,13 +1,9 @@
 gsap.registerPlugin(ScrollTrigger);
 
-const contents = gsap.utils.toArray("#horizontal .content");
-
-gsap.to(contents, {
-    xPercent: -100 * (contents.length -1),
+gsap.to(".logo", {
     scrollTrigger:{
-        trigger:"#horizontal",
-        pin: true,
-        scrub: 1,
+        trigger: ".logo",
+        start: "top 50%",
+        markers: true,
     }
-});
-
+})
