@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }   
 
 html {
@@ -9,8 +14,14 @@ html {
     overflow-x: hidden;
 }
 
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #001005;
+    --text-color: white;
+    --main-color: rgb(255, 0, 0);
+}
 body {
-    background-color: #080808;
+    background-color: var(--bg-color);
     color: white;
 }
 
@@ -30,12 +41,12 @@ body {
 
 #menu-icon {
     font-size: 3.6rem;
-    color: white;
+    color: var(--main-color);
     display: none;
 }
 
 .logo {
-    fotn-size: 3rem;
+    font-size: 3rem;
     color: white;
     font-weight: 800;
     cursor: pointer;
@@ -47,7 +58,7 @@ body {
 }
 
 span {
-    color: red;
+    color: var(--main-color);
 }
 
 .navbar a {
